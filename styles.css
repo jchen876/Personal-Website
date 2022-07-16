@@ -1,0 +1,40 @@
+body {
+    
+  }
+h1 {
+    
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 15px;     /* this moves the text down 15 px,*/
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+p {
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 10px;
+    line-height: 150%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+header {
+    margin: auto;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: inherit;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    }
+    
+a:visited{
+    text-decoration: none;
+    color: black;
+ }
