@@ -1,40 +1,36 @@
-body {
-    
-  }
-h1 {
-    
-    text-align: center;
-    font-size: 30px;
-    position: relative;
-    top: 15px;     /* this moves the text down 15 px,*/
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    font-family: 'Times New Roman', Times, serif;
-  }
-p {
-    text-align: center;
-    margin-left: 250px;
-    margin-right: 250px;
-    font-size: 15px;
-    line-height: 150%;
-    font-family: 'Times New Roman', Times, serif;
-  }
-
 header {
-    margin: auto;
-    padding: 15px;
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
-    color: inherit;
-  }
-  a{
-    text-decoration: none;
-    color: black;
-    }
-    
-a:visited{
-    text-decoration: none;
-    color: black;
- }
+  font-size: 30px;
+}
+body {
+  box-sizing: border-box;
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  align-items: center;
+  justify-content: center;
+  font-size: 15.5px;
+}
+.boxy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#main {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+.link {
+  color: black;
+}
+#blurb {
+  text-align: center;
+  line-height: 1.5;
+}
+#quote {
+  padding-top: 20px;
+  font-style: italic;
+}
