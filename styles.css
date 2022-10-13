@@ -4,7 +4,7 @@ body {
 h1 {
     
     text-align: center;
-    font-size: 15px;
+    font-size: 30px;
     position: relative;
     top: 15px;     /* this moves the text down 15 px,*/
     text-decoration: underline;
@@ -15,14 +15,14 @@ p {
     text-align: center;
     margin-left: 250px;
     margin-right: 250px;
-    font-size: 10px;
+    font-size: 15px;
     line-height: 150%;
     font-family: 'Times New Roman', Times, serif;
   }
 
 header {
     margin: auto;
-    padding: 10px;
+    padding: 15px;
     font-size: 30px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
