@@ -1,0 +1,7 @@
+// Cloudflare Workers config. There is no code here: the Worker just serves
+// the static files in this folder. See https://developers.cloudflare.com/workers/static-assets/
+{
+  "name": "personal-website",
+  "compatibility_date": "2026-09-04",
+  "assets": { "directory": "./" }
+}
